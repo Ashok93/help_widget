@@ -16,6 +16,8 @@
   border-right: 12px solid transparent;
   -webkit-transform: perspective(30px) rotateX(20deg);
   border-radius: 4px 4px 0px 0px;
+  border: 1px solid #ccc;
+  border-bottom: 0px;
 }
 
 .nav-tabs .tab.active {
@@ -56,7 +58,7 @@
 .help-close {
   position: relative;
   float: right;
-  top: 4px;
+  top: 5px;
   width: 30px;
   height: 30px;
   background: black;
