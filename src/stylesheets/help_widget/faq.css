@@ -1,0 +1,56 @@
+.faqs-wrap {
+  height: 100%;
+}
+
+.faqs-content {
+  height: 100%;
+  width: 60%;
+}
+
+.faq-input {
+  width: 75%;
+  padding: 5px;
+  padding-left: 30px;
+  border-radius: 13px;
+}
+
+.faq-items-wrap {
+  overflow: auto;
+  margin-left: 30px;
+  max-width: 600px;
+}
+
+.faq-item {
+  text-align: center;
+  width: 180px;
+  height: 80px;
+  color: steelblue;
+  margin: 7px;
+  justify-content: center;
+}
+
+.faq-item:hover {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.faqs-content .fa-search {
+  position: absolute;
+  top: 39px;
+  left: 35px;
+  color: #aeaeae;
+}
+
+.email-pref {
+  width: 40%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #ccc;
+}
+
+.mail-us-btn {
+  box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.2);
+}

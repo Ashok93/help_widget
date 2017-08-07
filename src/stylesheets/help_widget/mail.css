@@ -1,0 +1,10 @@
+.attachement-file:hover {
+  cursor: pointer;
+}
+
+.mail-us-wrap {
+  height: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: center;
+}

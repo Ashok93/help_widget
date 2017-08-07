@@ -1,0 +1,43 @@
+.flx.flx-rw {
+  display: flex;
+  flex-direction: row;
+}
+
+.flx.flx-cl {
+  display: flex;
+  flex-direction: column;
+}
+
+.flx.flx-rw-wrap {
+  flex-flow: row wrap;
+}
+
+.mgn-Axs {
+  margin: 10px;
+}
+
+.mgn-Axl {
+  margin: 30px;
+}
+
+.mgn-Txs {
+  margin-top: 10px;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.clr-gray {
+  color: gray;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}

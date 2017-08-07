@@ -1,0 +1,108 @@
+.help-widget {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.nav-tabs .tab {
+  float: left;
+  color: #a6a4a6;
+  background-color: #d5d5d5;
+  font-size: 12px;
+  min-width: 90px;
+  padding: 7px;
+  text-align: center;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  -webkit-transform: perspective(30px) rotateX(20deg);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.nav-tabs .tab.active {
+  background-color: #eee;
+  z-index: 9999;
+  position: relative;
+  color: black;
+}
+
+.nav-tabs .tab-inner {
+  transform: perspective(30px) rotateX(-18deg);
+  margin-top: 2px;
+}
+
+.nav-tabs .tab:hover {
+  cursor: pointer;
+}
+
+.nav-tabs {
+  float: right;
+  margin-right: -7px;
+  margin-bottom: 2px;
+  border-bottom: 0px;
+}
+
+.tab-content {
+  background-color: #eee;
+  height: 350px;
+  min-width: 335px;
+  float: right;
+  box-shadow: 0px -4px 8px rgba(50, 50, 50, 0.5);
+}
+
+.tabs-wrap {
+  position: relative;
+}
+
+.help-close {
+  position: relative;
+  float: right;
+  top: 4px;
+  width: 30px;
+  height: 30px;
+  background: black;
+  opacity: 0.5;
+  color: white;
+}
+
+.help-close:hover {
+  cursor: pointer;
+}
+
+.help-close .fa-times {
+  padding-left: 15px;
+  padding-top: 6px;
+}
+
+/* help content css transition */
+.help-content-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.help-content-enter.help-content-enter-active {
+  opacity: 1;
+}
+
+.help-content-leave {
+  opacity: 1;
+}
+
+.help-content-leave.help-content-leave-active {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+/* end of help content transitions */
+
+/* Override bootstrap styles to match design */
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #d5d5d5;
+}
+
+label {
+  font-weight: initial;
+}
+
+.fa {
+  margin-right: 5px;
+}
+/* end of override */
